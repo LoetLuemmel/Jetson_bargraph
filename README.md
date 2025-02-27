@@ -39,3 +39,6 @@ In the Python program you find some ```time.sleep(0.003)``` statements.
 There is risk, that in low power mode the performance display becomes unstable as timing doesn't match anymore.
 
 [2] I could just run in (slow) command write mode. Data write mode caused I2C bus crashes with necessary power cycling. This could be due to a cheap OLED display or lousy smbus2 implementation. - I got stuck here for several hours.
+
+[3] In order to compile ComfyUI, Python 3.10 is required (I think it was for numpy). But PyTorch and Nvidia GPU support for the Docker Container are based on Python 3.8 . In addition, torch complained during 'pip install' about the Nvidia driver serial number. 
+Finally I got that working later on with Stable Diffusion and might appy the same fix with ComfyUI. But all this is very time consuming and a weekend just has two days...
