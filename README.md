@@ -14,5 +14,15 @@ Finally I found a detour via ***smbus2*** and now I could permanently monitor CP
 
 <img width="1025" alt="image" src="https://github.com/user-attachments/assets/b736886c-76a0-447f-b40b-1ef2ab7dc13f" />
 
+The leftmost bar is GPU, remainder to the right CPU.
 
+About the super easy wiring, Jim from www.Jetsonhacks.com told us:
 
+| Function | Value |
+|----------|----------|
+| SCL   | 3   |
+| SDA   | 5   |
+| Vcc   | 1   |
+| GND   | 6   |
+
+I2C Bus 8
