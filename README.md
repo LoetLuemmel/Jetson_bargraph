@@ -4,7 +4,7 @@
 
 Well, this should also work with other Nvidia Jetson devices.
 
-Main driver for this initiative was a performance test of a Nvidia Xavier running CompfyUI. I did struggle with the Python version and could not get ComfyUI working on this wonderful **Nvidia 512 GPU cores beast**.
+Main driver for this initiative was a performance test of a Nvidia Xavier running CompfyUI. I did struggle with the Python version and could not get ComfyUI working on this wonderful **Nvidia 512 GPU Core beast**.
 
 Finally I ended up with Stable Diffusion and now it became interesting, what is the Xavier doing right now? I didn't attach a monitor and was working with SHH. Sure there is a JTOP installed, as I am doing (almost) everything what Jim suggests!
 However, the I2C bus could have been used for the BOSCH BME Sensor, so why not quickly adopting the Adafruit Lib for the super nice 0.96 OLED display?
