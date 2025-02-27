@@ -1,19 +1,17 @@
-/*
-Loetluemmel Pit Förster (c) & (r) 2025
-
-
-Python code for a SSD1306 OLED Display connected to a Nvidia Xavier AGX
-
-SDA pin5
-SCL pin7
-PWR
-GND
-
-The Display shows 9 bar graphs proportional to the GPU and 8 x CPU performannce 
-
-As this is a Nvidia Tegra specific implementation, the Adafruit driver based on busio is
-not supported. That's why I did implement the bargraph display manually with smbus2 
-*/
+# Loetluemmel Pit Förster (c) & (r) 2025
+#
+#
+# Python code for a SSD1306 OLED Display connected to a Nvidia Xavier AGX
+#
+# SDA pin5
+# SCL pin7
+# PWR
+# GND
+#
+# The Display shows 9 bar graphs proportional to the GPU and 8 x CPU performannce 
+#
+# As this is a Nvidia Tegra specific implementation, the Adafruit driver based on busio is
+# not supported. That's why I did implement the bargraph display manually with smbus2 
 
 
 import time
