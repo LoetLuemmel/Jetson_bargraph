@@ -25,4 +25,4 @@ About the super easy wiring, Jim from www.Jetsonhacks.com told us:
 | Vcc   | 1   |
 | GND   | 6   |
 
-I2C Bus 8
+I2C Bus #8
