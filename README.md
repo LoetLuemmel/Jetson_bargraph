@@ -30,7 +30,7 @@ I2C Bus #8
 
 ***Running the GPU/CPU Performance Display Python program***
 
-```Test$>Python3 bargraph.py```
+```Test$>python3 bargraph.py```
 
 **Please note:** I was running in full power mode ~30 Watt max.
 In the program you find some system.wait(0.002) statements.
