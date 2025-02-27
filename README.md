@@ -32,6 +32,9 @@ I2C Bus #8
 
 ```Test$>python3 bargraph.py```
 
-**Please note:** I was running in full power mode with all 6 CPU cores ~30 Watt max.
+**Please note:** 
+[1] I was running in full power mode with all 6 CPU cores ~30 Watt max.
 In the Python program you find some ```time.sleep(0.003)``` statements.
 There is risk, that in low power mode the performance display becomes unstable as timing doesn't match anymore.
+
+[2] I could just run in (slow) command write mode. Data write mode caused I2C bus crashes with necessary power cycling. This could be due to a cheap OLED display or lousy smbus2 implementation. - I got stuck here for several hours.
