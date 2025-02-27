@@ -1,6 +1,6 @@
 # Jetson_bargraph
 
-```Adafruit 0.96' OLED SSD1306 via I2C on a Nvidia Xavier AGX```
+===Adafruit 0.96' OLED SSD1306 via I2C on a Nvidia Xavier AGX===
 
 Well, this should also work with other Nvidia Jetson devices.
 
