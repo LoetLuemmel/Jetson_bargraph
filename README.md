@@ -32,6 +32,6 @@ I2C Bus #8
 
 ```Test$>python3 bargraph.py```
 
-**Please note:** I was running in full power mode ~30 Watt max.
-In the program you find some system.wait(0.002) statements.
-There is risk, that in low power mode the performance display becomes unstable.
+**Please note:** I was running in full power mode with all 6 CPU cores ~30 Watt max.
+In the Python program you find some ```time.sleep(0.003)``` statements.
+There is risk, that in low power mode the performance display becomes unstable as timing doesn't match anymore.
