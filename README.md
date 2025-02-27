@@ -27,6 +27,11 @@ About the super easy wiring, Jim from **[Jetsonhacks.com](https://jetsonhacks.co
 
 I2C Bus #8
 
-Please note: I was running in full power mode ~30 Watt max.
+
+***Running the GPU/CPUPerformance Display***
+
+'''Test$>Python3 bargraph.py'''
+
+**Please note:** I was running in full power mode ~30 Watt max.
 In the program you find some system.wait(0.002) statements.
 There is risk, that in low power mode the performance display becomes unstable.
