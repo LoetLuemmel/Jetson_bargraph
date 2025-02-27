@@ -16,7 +16,7 @@ Finally I found a detour via ***smbus2*** and now I could permanently monitor CP
 
 The leftmost bar is GPU, remainder to the right CPU.
 
-About the super easy wiring, Jim from www.Jetsonhacks.com told us:
+About the super easy wiring, Jim from **[Jetsonhacks.com](https://jetsonhacks.com/2018/10/23/i2c-nvidia-jetson-agx-xavier-developer-kit/)** told us:
 
 | Function | Value |
 |----------|----------|
